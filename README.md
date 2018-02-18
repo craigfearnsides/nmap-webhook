@@ -2,7 +2,7 @@
 This is a small Dancer2 web server to act as a front for NMAP::Parser
 
 ## Simply...
-* docker build --tag nmap-webhook nmap-webhook
+* docker build --tag nmap-webhook .
 * docker run -p8080:3000 -d nmap-webhook
 
 ## Further advice
